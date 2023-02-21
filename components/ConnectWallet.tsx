@@ -113,7 +113,13 @@ export default function ConnectWallet() {
             {i18n.connectWalletDesc_asiayo}
           </Heading>
           
-          
+          <Heading
+            whiteSpace={{ base: "pre-wrap" }}
+            textAlign="left"
+            fontSize={{ base: "20x", lg: "1xl" }}
+          >
+            {i18n.noteDesc}
+          </Heading>
           
           
           
@@ -265,13 +271,7 @@ export default function ConnectWallet() {
           flex="1"
           spacing={10}
         >
-          <Heading
-            whiteSpace={{ base: "pre-wrap" }}
-            textAlign="left"
-            fontSize={{ base: "20x", lg: "1xl" }}
-          >
-            {i18n.noteDesc}
-          </Heading>
+          
           <Heading
             whiteSpace={{ base: "pre-wrap" }}
             fontSize={{ base: "24px", lg: "xl" }}
