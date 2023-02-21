@@ -207,7 +207,7 @@ export default function ConnectWallet() {
                (
               <Button
                 mt={5}
-                w={{ base: "full" }}
+                w={{ base: "md" }}
                 //leftIcon={<MdOutlineAccountBalanceWallet />}
                 alignItems="center"
                 justifyContent="center"
