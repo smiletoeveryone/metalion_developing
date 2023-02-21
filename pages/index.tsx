@@ -1,0 +1,16 @@
+import type { NextPage } from "next";
+
+import Page from "../containers/Page";
+import Hero from "../components/Hero";
+//import Popup from '../components/Popup';
+
+const Home: NextPage = () => {
+  return (
+    <Page pageRoute="Home">
+      <Hero />
+     
+    </Page>
+  );
+};
+
+export default Home;
