@@ -20,7 +20,7 @@ const ZH = {
   subtitle:
     "雄獅集團的 Web3 社群平台，以旅遊為核心。\n賦能食宿遊購行領域，打造華語旅遊 Web3 最佳社群",
   // connectWalletDesc: "gonna 兌換咖啡，\n活動已於8/5結束! \n\n更多的優惠活動將持續推出...",
-  connectWalletDesc_asiayo: "😋️😋️😋️AsiaYo 特色旅宿\n\n 海內外特色旅宿/主題民宿 \n無上限最高6.5%現金回饋 (註.1)\n#包棟 #秘境 #好友出遊\n\n註:\n\n1. 宙獅大旅社NFT訂房使用期限為2023/12/31止.住房需於2024/12/31前入住完畢.\n2. 需透過宙獅大旅社網頁專屬連結至訂房網站. (重要)\n3. 入住完成後30天內於宙獅Discord提供收款帳號即可獲得現金回饋",
+  connectWalletDesc_asiayo: "😋️😋️😋️AsiaYo 特色旅宿\n\n 海內外特色旅宿/主題民宿 \n無上限最高6.5%現金回饋 (註.1)\n#包棟 #秘境 #好友出遊\n\n",
   noteDesc:"註:\n\n1. 宙獅大旅社NFT訂房使用期限為2023/12/31止.住房需於2024/12/31前入住完畢.\n2. 需透過宙獅大旅社網頁專屬連結至訂房網站. (重要)\n3. 入住完成後30天內於宙獅Discord提供收款帳號即可獲得現金回饋",
   discordDesc: "追蹤最新活動消息，\n請加入 Metalion Discord ",
   // travelshowDesc: "Metalion Lodging Pass \n（宙獅大旅社）", //"宙獅計劃Metalion，\n搶先註冊！",
@@ -265,7 +265,13 @@ export default function ConnectWallet() {
           flex="1"
           spacing={10}
         >
-          
+          <Heading
+            whiteSpace={{ base: "pre-wrap" }}
+            textAlign="left"
+            fontSize={{ base: "20x", lg: "1xl" }}
+          >
+            {i18n.noteDesc}
+          </Heading>
           <Heading
             whiteSpace={{ base: "pre-wrap" }}
             fontSize={{ base: "24px", lg: "xl" }}
@@ -330,13 +336,7 @@ export default function ConnectWallet() {
           
             {i18n.joinDiscordTitle}
           </Button>
-          <Heading
-            whiteSpace={{ base: "pre-wrap" }}
-            textAlign="left"
-            fontSize={{ base: "20x", lg: "1xl" }}
-          >
-            {i18n.noteDesc}
-          </Heading>
+          
         </VStack>
       </Stack>
       <Box>
