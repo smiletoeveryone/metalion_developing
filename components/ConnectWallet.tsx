@@ -11,7 +11,7 @@ import {
 } from "@chakra-ui/react";
 import NextLink from "next/link";
 
-import { MdOutlineAccountBalanceWallet } from "react-icons/md";
+//import { MdOutlineAccountBalanceWallet } from "react-icons/md";
 import { useAuthContext } from "../context/AuthContext";
 import { FaDiscord, FaPhoneAlt } from "react-icons/fa";
 
@@ -43,7 +43,7 @@ const ZH = {
 };
 
 export default function ConnectWallet() {
-  const { connect, isAuth } = useAuthContext();
+  const { isAuth } = useAuthContext();
 
   const i18n = ZH;
 
@@ -227,7 +227,7 @@ export default function ConnectWallet() {
                 
                               >
                             
-                {i18n.connectWalletTitle_asiayo}
+                {i18n.enterPortalTitle_asiayo}
               </Button>
               )}
             
@@ -276,7 +276,7 @@ export default function ConnectWallet() {
             w={{ base: "full" }}
             mt={15}
             // leftIcon={<FaDiscord />}
-            w="full"
+            //w="full"
             as={"a"}
             target="_blank"
             href= "https://liontravel.qubic.market/"
@@ -308,7 +308,7 @@ export default function ConnectWallet() {
             mt={5}
             w={{ base: "full" }}
             leftIcon={<FaDiscord />}
-            w="full"
+            //w="full"
             as={"a"}
             target="_blank"
             href="https://discord.gg/metalion"
