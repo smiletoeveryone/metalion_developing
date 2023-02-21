@@ -120,7 +120,7 @@ export default function Navbar() {
               <Button
                 as={"a"}
                 target="_blank"
-                href="https://liontravel.qubic.market/en"
+                
                 rel="noreferrer"
                 variant="text"
                 fontSize={"lg"}
