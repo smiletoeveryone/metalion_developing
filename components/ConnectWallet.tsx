@@ -38,7 +38,7 @@ const ZH = {
   qubicVisitorTitle: "登入宙獅大旅社", // "Metalion X Qubic",
   //signWalletTitle: "簽署綁定",
   //enterPortalTitle: "前往兌換中心",
-  enterPortalTitle_asiayo: "😍️😍️😍️ this is a beta version for developing ❗️ 💝️💝️💝️",
+  enterPortalTitle_asiayo: "😍️😍️😍️ this is a beta version for AsiaYo ❗️",
   checkRedeemBtn_qubic: "登入/註冊 Qubic 錢包❗️❗️❗️", 
   };
 
