@@ -116,6 +116,7 @@ export default function Navbar() {
           spacing={3}
         >
         <NextLink passHref href="https://liontravel.qubic.market/en">
+          <a target="_blank" rel="noopener noreferrer">Open in new tab</a>
             <a>
               <Button
                 variant="text"
