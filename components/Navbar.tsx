@@ -262,7 +262,7 @@ export default function Navbar() {
                 >
                 <NextLink passHref href="https://devtest.metalion.world/">
                     <a>
-              <Button
+              
                 as={"a"}
                 target="_blank"
                 href="https://devtest.metalion.world/"
@@ -272,7 +272,7 @@ export default function Navbar() {
                 display={{ base: "none", md: "flex" }}
               >
                 宙獅大旅社
-              </Button>
+              
             </a>
                   </NextLink>
                 </MenuItem>
