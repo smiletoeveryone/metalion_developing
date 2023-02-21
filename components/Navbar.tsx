@@ -115,12 +115,12 @@ export default function Navbar() {
           direction={"row"}
           spacing={3}
         >
-        <NextLink passHref href="https://liontravel.qubic.market/en">          
+        <NextLink passHref href="https://devtest.metalion.world/">          
             <a>
               <Button
                 as={"a"}
                 target="_blank"
-                href="https://liontravel.qubic.market/en"
+                href="https://devtest.metalion.world/"
                 rel="noreferrer"
                 variant="text"
                 fontSize={"lg"}
