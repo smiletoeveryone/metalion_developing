@@ -37,7 +37,7 @@ const ZH = {
   qubicVisitorTitle: "登入宙獅大旅社", // "Metalion X Qubic",
   //signWalletTitle: "簽署綁定",
   //enterPortalTitle: "前往兌換中心",
-  enterPortalTitle_asiayo: "😍️😍️😍️ 按這裏訪問Asia Yo取得您的專屬折扣❗️ 💝️💝️💝️",
+  enterPortalTitle_asiayo: "😍️😍️😍️ this is a beta version for developing ❗️ 💝️💝️💝️",
   checkRedeemBtn_qubic: "登入/註冊 Qubic 錢包❗️❗️❗️", 
   noteDesc:"註:\n\n1. 宙獅大旅社NFT訂房使用期限為2023/12/31止.住房需於2024/12/31前入住完畢.\n2. 需透過宙獅大旅社網頁專屬連結至訂房網站. (重要)\n3. 入住完成後30天內於宙獅Discord提供收款帳號即可獲得現金回饋",
 };
