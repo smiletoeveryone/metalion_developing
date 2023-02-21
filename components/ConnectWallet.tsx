@@ -234,7 +234,7 @@ export default function ConnectWallet() {
            <Heading
             whiteSpace={{ base: "pre-wrap" }}
             textAlign="left"
-            fontSize={{ base: "20x", lg: "1xl" }}
+            fontSize={{ base: "20x", lg: "3xl" }}
           >
             {i18n.noteDesc}
           </Heading>
