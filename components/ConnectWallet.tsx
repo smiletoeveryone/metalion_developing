@@ -113,14 +113,7 @@ export default function ConnectWallet() {
             {i18n.connectWalletDesc_asiayo}
           </Heading>
           
-          <Heading
-            whiteSpace={{ base: "pre-wrap" }}
-            textAlign="left"
-            fontSize={{ base: "20x", lg: "1xl" }}
-          >
-            {i18n.noteDesc}
-          </Heading>
-          
+               
           
           
           
@@ -238,7 +231,13 @@ export default function ConnectWallet() {
               )}
             
             
-
+           <Heading
+            whiteSpace={{ base: "pre-wrap" }}
+            textAlign="left"
+            fontSize={{ base: "20x", lg: "1xl" }}
+          >
+            {i18n.noteDesc}
+          </Heading>
                           
               
              {/* <NextLink passHref href="https://wallet.qubic.app/home"> 
