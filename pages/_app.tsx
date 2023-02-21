@@ -10,8 +10,8 @@ import theme from "../styles/theme";
 import { Web3ContextProvider } from "../context/Web3Context";
 import { AuthContextProvider } from "../context/AuthContext";
 //import React, { useState, useEffect } from 'react';
-import { useState } from 'react';
-import Popup from '../components/Popup';
+//import { useState } from 'react';
+//import Popup from '../components/Popup';
 
 import Web3 from "web3";
 import { Web3ReactProvider } from "@web3-react/core";
